@@ -1,0 +1,25 @@
+{
+  "name": "test_avro",
+  "type": "record",
+  "doc": "test data",
+  "namespace": "com.sixth.cartographer.test.resources",
+  "fields": [
+    {
+      "name": "test_int",
+      "type": ["null","int"]
+    },
+    {
+      "name": "test_string",
+      "type": ["null","string"]
+    },
+    {
+      "name": "test_boolean",
+      "type": ["null","boolean"]
+    },
+    {
+      "name": "test_time_long_ms",
+      "type": ["null","long"],
+      "logicalType": "timestamp-millis"
+    }
+  ]
+}
